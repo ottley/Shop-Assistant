@@ -14,27 +14,35 @@
     <div bp="grid">
       <div class="animate-flicker" bp="12" style="height:5px;width:auto;"></div>
       <div bp="12">
-        <h1 id="rain"><script type="text/javascript" src="rainText.js"></script></h1>
+        <h1 id="rain">
+          <script type="text/javascript" src="rainText.js"></script>
+        </h1>
       </div>
-      <h2 bp="12" class="toolTitle">Barcodes</h2>
+      <h2 bp="12" class="toolTitle">Products</h2>
       <div class="animate-flicker" bp="12" style="height:5px;width:auto;"></div>
       <div bp="1" DISABLED-id="bar">
       </div>
       <div bp="10" id="bar">
         <input list="products" placeholder="Enter Products Here..." style="width:80%;" id="product" onkeyup="check()" autocomplete="off">
         <datalist id="products">
+          <option value="Coffee Logs">
           <option value="Dobbies Multi-Purpose John Innes Reduced Peat Content, 60L">
+          <option value="Eco Briquettes">
+          <option value="Flaming Firewood">
+          <option value="Kiln Dried Logs">
+          <option value="Kindling Box">          
+          <option value="Newflame Smokeless Coal">
         </datalist>
+        <br>
+        <button onclick="productReset()"><h2 id="resetButton">RESET</h2></button>
         <h4 id="selectedItemName">
         </h4>
         <p id="navCode" style="font-size: 50%;">
         </p>
         <img src="" id="selectedItemImage" height="" width="">
         <img src="" id="selectedItemImageQR" height="" width="">
-        <br>
-        <button onclick="productReset()"><h2 id="resetButton">RESET</h2></button>
       </div>
-      <div bp="1" DISABLED-id="bar">
+      <div bp="1">
       </div>
       <div class="animate-flicker" bp="12" style="height:5px;width:auto;"></div>
       <h2 bp="12" id="toolTitle2">Phone Numbers</h2>
@@ -69,8 +77,11 @@
       <div class="animate-flicker" bp="12" style="height:5px;width:auto;"></div>
       <div bp="12">
         <h2 id="toolTitle3">
-          Last updated 19th Jan 2021
+          Last updated 22nd of Jan 2021
         </h2>
+        <h5 id="toolTitle3">
+          LO
+        </h5>
       </div>
       <div class="animate-flicker" bp="12" style="height:5px;width:auto;"></div>
     </div>
