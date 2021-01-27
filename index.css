@@ -57,13 +57,14 @@ body {
   text-align: center;
   font-family: 'Goldman', cursive;
   padding:30px;
-  font-size: 80%;
+  font-size: 150%;
 }
 
 #resetButton {
   text-align: center;
   font-family: 'Goldman', cursive;
   padding: 17px;
+  font-size: 150%;
 }
 
 #toolTitle2 {
